@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Z.ai API Proxy",
   "main": "worker.js",
+  "type": "module",
   "scripts": {
     "start": "miniflare worker.js --host 0.0.0.0 --port $PORT --modules"
   },
   "dependencies": {
-    "miniflare": "^3.2.0"
+    "miniflare": "^2.14.2"
   }
 }
-
