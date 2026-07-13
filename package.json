@@ -4,7 +4,7 @@
   "description": "Z.ai API Proxy",
   "main": "worker.js",
   "scripts": {
-    "start": "miniflare worker.js --port $PORT --modules"
+    "start": "miniflare worker.js --host 0.0.0.0 --port $PORT --modules"
   },
   "dependencies": {
     "miniflare": "^3.2.0"
