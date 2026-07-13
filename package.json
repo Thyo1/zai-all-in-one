@@ -1,0 +1,13 @@
+{
+  "name": "tes-api",
+  "version": "1.0.0",
+  "description": "Z.ai API Proxy",
+  "main": "worker.js",
+  "scripts": {
+    "start": "miniflare worker.js --port $PORT --modules"
+  },
+  "dependencies": {
+    "miniflare": "^3.2.0"
+  }
+}
+
